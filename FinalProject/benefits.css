@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    display: flex; /*adjusts the movement*/
+    justify-content: center; /* centers the page*/
+    background-color: #bacbe6;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width:99%;
+    border: 3px solid #071952;
+    background-color: #8EA7E9;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+    text-decoration:underline;
+}
+
+header h2 a:hover,a:focus{
+    font-size: xx-large;
+    color:#071952;
+    text-decoration: none;
+}
+
+header h1 a{
+    text-align: center;
+    color:#071952;
+}
+
+
+#nav{
+    background-color: #071952;
+}
+
+header {
+    padding: 2em 5em 2em;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EBF4F6;
+    font: 15px Serif;
+}
+header h2{
+    text-align:center;
+    font-size: xx-large;
+    color:#071952;
+}
+
+header img {
+    float: left;
+    width: 10%;
+    height: 15%;
+    min-width:100px;
+    min-height: auto;
+    padding: 0 1em;
+    position: sticky;
+}
+
+
+main h2{
+    color:#088395;
+    text-align: center;
+    font-weight: bold;
+    padding: 1em 2em;
+    text-decoration: underline;
+}
+
+main{
+    background-color: #DFF5FF;
+}
+
+.ref{
+    padding: 4em 0 2em 5em;
+    white-space: none;
+    font-size: small;
+    text-align: left;
+    line-height: 1.5;
+}
+main img{
+padding-bottom: 2em
+}
+
+.ref::after{
+    content:"\A";
+    display:block;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+#nav ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    position: relative;
+    flex-direction: column;
+}
+#nav ul li{
+    float:left;
+}
+
+#nav ul li a{
+    display: inline-block;
+    width: 199px;
+    text-align: center;
+    font-size: 11px;
+    padding: 1em;
+    margin: 0;
+    text-decoration: none;
+    background-color: #071952;
+    color: #EBF4F6;
+    font-weight: bold;
+    border: 1px solid #071952;
+}
+
+#nav ul ul{
+    position:absolute;
+    display: none;
+    top: 100%
+}
+#nav ul ul li{
+    float:none;
+}
+#nav ul li:hover > ul{
+    display:block;
+}
+#nav ul li a:hover{
+    background-color: #378CE7;
+
+}
+#nav > ul::after{
+    content:"";
+    clear: both;
+    display:block;
+}
+
+.submenu{
+    position:absolute;
+    width: 130px;
+    display:block;
+    text-decoration:none;
+    z-index: 2;
+}
+
+nav ::after{
+    float:none;
+    display: block;
+}
+
+.ref{
+    column-count: 3;
+    font-size: large;
+    list-style-type: circle;
+    padding: 0 20px 60px 60px;
+}
+.references{
+    padding: 0 2em 2em;
+    text-align: left;
+    font: 15px Serif;
+}
+
+footer {
+    background-color: #EBF4F6;
+    clear: both;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em;
+    white-space: none;
+}
+footer a:hover,a:focus{
+    font-size: large;
+    color:#EBF4F6;
+}
+
+footer a{
+    color: #EBF4F6;
+}
+
+footer p {
+    background-color: #071952;
+    text-align: center;
+    color: #EBF4F6;
+    margin: 0;
+    padding: 1em;
+}
+
+@media screen and (max-width: 608px) {
+    header img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header h1{
+        font-size: 50%;
+        display: block;
+        text-align: center;
+    }
+
+
+}
+@media screen and (max-width: 1022px) {
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+}
+
+/* DEVELOPER: Paulina De Leon, IS117-011, Summer 2024  */

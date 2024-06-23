@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    display: flex; /*adjusts the movement*/
+    justify-content: center; /* centers the page*/
+    background-color: #bacbe6;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width:99%;
+    border: 3px solid #071952;
+    background-color: #8EA7E9;
+    text-align: center;
+}
+
+
+header h2 a:hover,a:focus{
+    font-size: xx-large;
+    color:#071952;
+    text-decoration: none;
+}
+header h5 a:hover,a:focus{
+    color:#645CBB;
+    text-decoration: none;
+}
+
+header h1 a{
+    text-align: center;
+    color:#071952;
+}
+
+header {
+    padding: 2em 5em 2em;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EBF4F6;
+    font: 15px Serif;
+}
+
+header h2{
+    text-align:center;
+    font-size: xx-large;
+    color:#071952;
+}
+
+header img {
+    float: left;
+    width: 10%;
+    height: 15%;
+    min-width:100px;
+    min-height: auto;
+    padding: 0 1em;
+    position: sticky;
+}
+
+
+article img{
+    float:right;
+    clear: left;
+    padding:3em 1em 0 1em;
+    width: 300px;
+}
+main h2{
+    color:#088395;
+    text-align: center;
+    font-weight: bold;
+    padding: 2em ;
+}
+
+main{
+    background-color: #DFF5FF;
+}
+
+main p{
+    padding: 2em 0 2em 5em;
+    white-space: none;
+    font-size: small;
+    text-align: left;
+    text-justify: inter-word;
+    line-height: 2.5;
+}
+.references{
+    padding: 1em;
+}
+.ref{
+    padding: 0 2em 2em;
+}
+.ref::after{
+    content:"\A";
+    display:block;
+}
+nav{
+    background-color:#071952;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+}
+
+#nav ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+    position: relative;
+    flex-direction: column;
+}
+#nav ul li{
+    float:left;
+}
+
+#nav ul li a{
+    display: inline-block;
+    width: 199px;
+    text-align: center;
+    font-size: 11px;
+    padding: 1em;
+    margin: 0;
+    text-decoration: none;
+    background-color: #071952;
+    color: #EBF4F6;
+    font-weight: bold;
+    border: 1px solid #071952;
+}
+
+#nav ul ul{
+    position:absolute;
+    display: none;
+    top: 100%
+}
+#nav ul ul li{
+    float:none;
+}
+#nav ul li:hover > ul{
+    display:block;
+}
+#nav ul li a:hover{
+    background-color: #378CE7;
+
+}
+#nav > ul::after{
+    content:"";
+    clear: both;
+    display:block;
+}
+
+.submenu{
+    position:absolute;
+    width: 130px;
+    display:block;
+    text-decoration:none;
+    z-index: 2;
+}
+
+nav ::after{
+    float:none;
+    display: block;
+}
+
+article {
+    font:15px Serif;
+}
+
+
+article h3 {
+    text-align: center;
+    text-decoration: underline;
+    padding: 3em 0 1em;
+}
+
+article p {
+    font-size: 105%;
+    padding:2em;
+}
+article h2{
+    text-align: center;
+    text-decoration: underline;
+}
+#first{
+    padding:1em 2em 4em;
+}
+footer {
+    background-color: #EBC7E6;
+    clear: both;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em;
+    white-space: none;
+}
+footer {
+    background-color: #EBF4F6;
+    clear: both;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2em;
+    white-space: none;
+}
+footer a:hover,a:focus{
+    font-size: large;
+    color:#EBF4F6;
+}
+
+footer a{
+    color: #EBF4F6;
+}
+
+footer p {
+    background-color: #071952;
+    text-align: center;
+    color: #EBF4F6;
+    margin: 0;
+    padding: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    header img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header h1{
+        font-size: 50%;
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1022px) {
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    header img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    header h1{
+        font-size: 50%;
+        display: block;
+        text-align: center;
+    }
+    article img{
+        width:50%;
+        display:block;
+        margin: 0 auto;
+    }
+
+}
+
+/* DEVELOPER: Paulina De Leon, IS117-011, Summer 2024  */
