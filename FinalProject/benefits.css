@@ -83,14 +83,16 @@ main{
     text-align: left;
     line-height: 1.5;
 }
+
 main img{
-padding-bottom: 2em
+    padding-bottom: 2em
 }
 
 .ref::after{
     content:"\A";
     display:block;
 }
+
 nav ul {
     list-style: none;
     margin: 0;
@@ -118,7 +120,7 @@ nav ul li a {
     flex-direction: column;
 }
 #nav ul li{
-    float:left;
+    float:center;
 }
 
 #nav ul li a{
