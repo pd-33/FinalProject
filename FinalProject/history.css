@@ -198,6 +198,7 @@ article h3{
 .ref {
     padding:0 2em 2em;
     text-align: left;
+    line-height: 1.5em;
 }
 footer {
     background-color: #EBF4F6;
