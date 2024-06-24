@@ -43,9 +43,10 @@ nav ul li a {
     padding:0;
     position: relative;
     flex-direction: column;
+    background-color: #071952;
 }
 #nav ul li{
-    float:left;
+    float:center;
 }
 
 #nav ul li a{
@@ -176,6 +177,14 @@ main{
     font-weight: bolder;
     color:#365486;
     padding:2em 0;
+}
+
+.mb-5.row{
+    margin:auto;
+    padding-bottom: 1em;
+}
+.mb-5.{
+    padding-bottom: 1em;
 }
 
 input{
