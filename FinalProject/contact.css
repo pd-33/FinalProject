@@ -13,7 +13,7 @@ body {
     font-size: 100%;
     width:99%;
     border: 3px solid #071952;
-    background-color: #8EA7E9;
+    background-color: #071952;
     text-align: start;
 }
 
@@ -128,9 +128,6 @@ header img {
 }
 
 
-
-
-
 main h2{
     font-weight: bold;
     font-style:italic;
@@ -148,6 +145,7 @@ header h5 a{
     box-shadow: 5px 5px #8EA7E9;
     border-radius: 4px;
 }
+
 header h5 {
     text-align: left;
     color:#7FC7D9;
@@ -160,11 +158,11 @@ main h3 a{
     box-shadow: 5px 5px #3B3C6D;
     border-radius: 5px;
 }
+
 h3{
     padding:1em;
     color: #3B3C6D;
     text-align: center;
-
 }
 
 main{
@@ -177,8 +175,9 @@ main{
 #form{
     font-weight: bolder;
     color:#365486;
-    padding:1em 0;
+    padding:2em 0;
 }
+
 input{
     width: 100%;
     padding: 5px 2px;
@@ -237,4 +236,4 @@ footer p {
     }
 }
 
-/* DEVELOPER: Paulina De Leon, IS117-011, Summer 2024 --> */
+/* DEVELOPER: Paulina De Leon, IS117-011, Summer 2024 */
