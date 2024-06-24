@@ -194,8 +194,10 @@ article h3{
     text-decoration: underline;
     padding:1em;
 }
-.ref{
+
+.ref {
     padding:0 2em 2em;
+    text-align: left;
 }
 footer {
     background-color: #EBF4F6;
