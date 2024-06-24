@@ -74,8 +74,9 @@ header h1 a{
 
 .card {
     display: block;
-    top: 200px;
+    top: 170px;
     position:absolute;
+    width:1246px;
     min-height: auto;
     border-radius: 10px;
     text-decoration: none;
@@ -204,7 +205,7 @@ nav ul li a {
     flex-direction: column;
 }
 #nav ul li{
-    float:left;
+    float:center;
 }
 
 #nav ul li a{
