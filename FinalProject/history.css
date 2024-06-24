@@ -119,7 +119,7 @@ nav ul li a {
     flex-direction: column;
 }
 #nav ul li{
-    float:left;
+    float:center;
 }
 
 #nav ul li a{
@@ -174,6 +174,9 @@ article {
     font:15px Serif;
 }
 
+article img{
+    padding: 1em;
+}
 
 article p {
     font-size: 105%;
